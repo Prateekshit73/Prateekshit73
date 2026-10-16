@@ -1,81 +1,51 @@
-<h1 align="left">Hi, I'm Prateekshit Jaiswal👋</h1>
+<h1 align="center">Prateekshit Jaiswal</h1>
 
-###
+<p align="center">
+  <b>AI / ML Engineer</b> &nbsp;·&nbsp; LLMs &amp; Deep Learning &nbsp;·&nbsp; Production ML Systems
+</p>
 
-<p align="left"> I am an open source contributor who effectively integrates classical strategies with modern solutions. I enjoy tackling new challenges and learning through hands-on coding.</p>
+<p align="center">
+  <a href="https://www.linkedin.com/in/prateekshit-jaiswal-18b024229"><img src="https://skillicons.dev/icons?i=linkedin" height="36" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="https://gitlab.com/prateekshitjaiswal73"><img src="https://skillicons.dev/icons?i=gitlab" height="36" alt="GitLab" /></a>
+  &nbsp;
+  <a href="mailto:prateekshitjaiswal73@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="36" alt="Email" /></a>
+</p>
 
-###
+---
 
-<img align="right" height="250" src="https://camo.githubusercontent.com/5046cb083418fd1922b7f5990e594c3bb06f5d87e5516cd8839ae0aa48b3aec4/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966"  />
+I build ML systems end to end, from the autograd engine up to production serving. I'm a Software Engineer at [Entropy Intelligence](https://theentropy.ai), where I own a 15+ service data-extraction platform and its ML inference stack. I was a **Google Summer of Code 2025** contributor with the Python Software Foundation.
 
-###
+**Currently**
 
-<h3 align="left">About me</h3>
+- **At work:** I run the extraction platform end to end. Every service ships, scales and fails on its own, so one bad source can't take the rest down. The stack is PyTorch models behind FastAPI, pooled Playwright browsers, AWS ECS Fargate managed with Terraform, and OpenTelemetry tracing.
+- **On the side:** I'm training [P.H.O.E.N.I.X.](https://gitlab.com/prateekshitjaiswal73/p.h.o.e.n.i.x), an 88M-parameter GPT built on my own autograd engine.
+- **In open source:** I'm still contributing to [Open World Holidays](https://github.com/vacanza/holidays) after GSoC.
+- **In research:** I reviewed AI/ML submissions for the IC-AIMLC 2026 programme committee.
 
-###
+## Featured projects
 
-<p align="left">👨🏻‍💻 Building innovative projects<br>🌱 Continuously learning new technologies and improving my skills.<br>📫 You can reach me at prateekshitjaiswal73@gmail.com <br>👯 Actively contributing to open-source projects and enjoying collaboration with others.</p>
+Most of my personal work lives on [GitLab](https://gitlab.com/prateekshitjaiswal73).
 
-###
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [**P.H.O.E.N.I.X.**](https://gitlab.com/prateekshitjaiswal73/p.h.o.e.n.i.x) | An 88M-parameter GPT trained from scratch on `minigrad`, an autograd engine I wrote, with a custom BPE tokenizer. Post-training uses STaR self-improvement followed by DPO. It powers a local agent runtime with planning, persistent memory and voice. | Python, NumPy, CUDA / Metal |
+| [**Smart LLM Router**](https://gitlab.com/prateekshitjaiswal73/extensions/-/tree/main/smart-llm-router) | A VS Code / Cursor extension that scores how complex each prompt is. Simple prompts go to local Ollama models and hard ones go to Claude. | TypeScript, Ollama |
+| [**Minimal Search Engine**](https://gitlab.com/prateekshitjaiswal73/minimal-search-engine) | A crawler, inverted index, TF-IDF ranker and web UI, written with no third-party dependencies. | Python (stdlib only) |
 
-<div align="left">
-  <a href="https://www.linkedin.com/in/prateekshit-jaiswal-18b024229" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=flat" height="40" alt="linkedin logo"  />
-  </a>
-  <a href="https://discordapp.com/users/929743253622906930" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=flat" height="40" alt="discord logo"  />
-  </a>
-</div>
+## Open source
 
-###
+| Project | Contributions |
+| --- | --- |
+| [**vacanza/holidays**](https://github.com/vacanza/holidays)<br><sub>Holiday data library used by Home Assistant and Meta's Prophet</sub> | **Google Summer of Code 2025.** I added [17 countries](https://github.com/vacanza/holidays/pulls?q=is%3Apr+author%3APrateekshit73+is%3Amerged), 12 of them as my GSoC project. Each one covers fixed, floating and regional holiday rules, with tests and docs. I also wrote repo-wide spell-check tooling (cspell, pre-commit, CI), which is [in review](https://github.com/vacanza/holidays/pull/2898). |
+| [**kornia/kornia**](https://github.com/kornia/kornia)<br><sub>Differentiable computer vision for PyTorch</sub> | I fixed error handling in augmentation and geometry ([#5455](https://github.com/kornia/kornia/pull/5455), [#4988](https://github.com/kornia/kornia/pull/4988)). A CLAHE half-precision fix is in review ([#6018](https://github.com/kornia/kornia/pull/6018)). |
+| [**psf/black**](https://github.com/psf/black)<br><sub>The Python code formatter</sub> | I'm adding a preview style that splits binary operations before the operator ([#5517](https://github.com/psf/black/pull/5517), in review). |
 
-<h2 align="left">I code with</h2>
+## Tech
 
-###
-
-<div align="left">
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo"  />
-  <img width="12" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" height="40" alt="raspberrypi logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="40" alt="arduino logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="40" alt="gitlab logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" alt="sass logo"  />
-  <img width="12" />
-</div>
-
-###
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Prateekshit73&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Prateekshit73&radius=16&theme=redical&area=true&order=5" height="300" alt="activity-graph graph"  />
-</div>
-
-###
-
-<div align="left">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Prateekshit73.Prateekshit73&"  />
-</div>
-
-###
-
-<img src="https://raw.githubusercontent.com/Prateekshit73/Prateekshit73/output/snake.svg" alt="Snake animation" />
-
-###
+| | |
+| --- | --- |
+| **ML & data** | <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv" height="40" alt="Python, PyTorch, TensorFlow, scikit-learn, OpenCV" /><br><sub>Transformers · pretraining · SFT · DPO · RAG · BERT NLU · Ollama · STT/TTS</sub> |
+| **Backend & web** | <img src="https://skillicons.dev/icons?i=fastapi,ts,nodejs,nestjs,express,react,tailwind" height="40" alt="FastAPI, TypeScript, Node.js, NestJS, Express, React, Tailwind" /> |
+| **Data stores** | <img src="https://skillicons.dev/icons?i=postgres,redis,mongodb" height="40" alt="PostgreSQL, Redis, MongoDB" /> |
+| **Infra** | <img src="https://skillicons.dev/icons?i=aws,terraform,docker,githubactions,linux,bash" height="40" alt="AWS, Terraform, Docker, GitHub Actions, Linux, Bash" /> |
